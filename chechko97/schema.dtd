@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!ELEMENT catalogue (regions, vacations, people)>
+<!ELEMENT regions (region)*>
+<!ELEMENT vacations (vacation)*>
+<!ELEMENT vacation (dates, stay, transport, price, schedule, includes)>
+<!ELEMENT dates (date)+>
+<!ELEMENT people (person)*>
+<!ELEMENT person ((name)+, phoneNumber, EGN)>
+<!ELEMENT schedule (day)+>
+<!ELEMENT day (#PCDATA)>
+<!ELEMENT includes (service)+>
+<!ELEMENT service (#PCDATA)>
+
+<!ATTLIST region id ID #REQUIRED>
+<!ATTLIST vacation id ID #REQUIRED
+					destination CDATA #REQUIRED
+					photo ENTITY #IMPLIED
+					region_id IDREF #IMPLIED>
+<!ATTLIST day id ID #REQUIRED>
+<!ATTLIST person id ID #REQUIRED
+					person_id IDREF #IMPLIED>
+<!ATTLIST date value CDATA #REQUIRED
+				person_id IDREFS #IMPLIED>
+<!ATTLIST service id ID #REQUIRED>
+
+<!ELEMENT region (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT phoneNumber (#PCDATA)>
+<!ELEMENT EGN (#PCDATA)>
+<!ELEMENT stay (#PCDATA)>
+<!ELEMENT transport (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+
+<!NOTATION JPG SYSTEM "image/jpeg">
