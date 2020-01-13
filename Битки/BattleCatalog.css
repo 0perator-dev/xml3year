@@ -1,0 +1,55 @@
+BattleCatalog {
+	padding: 10px;
+}
+
+Battle > Name {
+	display: block;
+	font-size: 2em;
+}
+Battle > StartDate {
+	display: block;
+}
+Battle > EndDate {
+	display: block;
+}
+Battle > Place {
+	display: block;
+}
+Battle > Era {
+	display: block;
+}
+Battle > Reason {
+	display: block;
+}
+Battle > ConflictType {
+	display: block;
+}
+Attackers, Defenders {
+	display: table;
+	border: 1px solid black;
+	margin-bottom: 10px;
+}
+
+Attacker, Defender {
+	display: table-row;
+}
+
+Attacker > Name, Defender > Name {
+	display: table-cell;
+	border: 1px solid black;
+}
+
+Attacker > Army, Defender > Army {
+	display: table-cell;
+	border: 1px solid black;
+}
+
+Attacker > Losses, Defender > Losses {
+	display: table-cell;
+	border: 1px solid black;
+}
+
+Result {
+	font-weight: bold;
+	display: block;
+}

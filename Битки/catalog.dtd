@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!NOTATION jpeg SYSTEM "JPG">
+<!ENTITY shipka SYSTEM "shipka.jpg" NDATA jpeg>
+<!ENTITY normandy SYSTEM "normandy.jpg" NDATA jpeg>
+<!ENTITY krum SYSTEM "krum.jpg" NDATA jpeg>
