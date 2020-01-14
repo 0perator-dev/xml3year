@@ -33,15 +33,13 @@
                             <xs:element name="Region" maxOccurs="unbounded">
                                 <xs:complexType>
                                     <xs:sequence>
-
-                                        <xs:element name="orderperson" type="xs:string"/>
-
+                                        <xs:element name="RegionName" type="xs:string"/>
                                     </xs:sequence>
+                                    <xs:attribute name="id" type="xs:integer" use="required"/>
                                 </xs:complexType>
                             </xs:element>
 
                         </xs:sequence>
-                        <xs:attribute name="id" type="xs:integer" use="required"/>
                     </xs:complexType>
                 </xs:element>
 

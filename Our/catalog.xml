@@ -1,6 +1,6 @@
 
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE Catalog SYSTEM "catalog.xsd"[
+<!DOCTYPE Catalog [
     <!ENTITY pict1 SYSTEM "https://upload.wikimedia.org/wikipedia/commons/0/01/The_kamchia_river_galleryfull-world66.jpg" NDATA JPG>
     <!ENTITY pict2 SYSTEM "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Ivailovgrad_Dam_11.jpg/2560px-Ivailovgrad_Dam_11.jpg" NDATA JPG>
     <!ENTITY pict3 SYSTEM "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Pancharevo_1.JPG/2560px-Pancharevo_1.JPG" NDATA JPG>
@@ -9,8 +9,8 @@
     <!ENTITY pict6 SYSTEM "https://peika.bg/pictures/42788_715__3.jpg" NDATA JPG>
     <!ENTITY pict7 SYSTEM "https://static.bnr.bg/gallery/cr/816e8e3f192cc69c1c08472808ffd170.jpg" NDATA JPG>
 ]>
-<Catalog>
-    <Dams xmlns="http://www.somewhere.org/Dams" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="catalog.xsd">
+<Catalog xmlns="http://www.somewhere.org/Dams" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="catalog.xsd">
+    <Dams>
         <Dam>
             <Name>Камчия</Name>
             <Year>1973</Year>
