@@ -2,7 +2,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Catalog SYSTEM "catalog.xsd">
 <Catalog>
-    <Dams xmlns="http://www.somewhere.org/Dams" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.somewhere.org/Dams Dams.xsd">
+    <Dams xmlns="http://www.somewhere.org/Dams" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="catalog.xsd">
         <Dam>
             <Name>Камчия</Name>
             <Year>1973</Year>
