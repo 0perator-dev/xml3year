@@ -11,7 +11,10 @@
             </head>
             <body>
                 <h2>Dams</h2>
-                <table border="1">
+                <xsl:variable name="header" >
+                              Description
+                        </xsl:variable> 
+                <table>
                     <tr>
                         <th>Name</th>
                         <th>Year</th>
