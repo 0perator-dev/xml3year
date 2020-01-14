@@ -6,6 +6,9 @@
 
     <xsl:template match="/">
         <html>
+            <head>
+            	<link rel="stylesheet" type="text/css" href="style.css" />
+            </head>
             <body>
                 <h2>Dams</h2>
                 <table border="1">
