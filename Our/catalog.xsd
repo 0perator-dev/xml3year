@@ -17,6 +17,7 @@
                                         <xs:element name="Capacity" type="xs:integer"/>
                                         <xs:element name="Tributaries" type="xs:string"/>
                                         <xs:element name="RegionId" type="xs:integer"/>
+                                        <xs:element name="Img" type="xs:string"/>>
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
