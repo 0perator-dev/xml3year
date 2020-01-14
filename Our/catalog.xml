@@ -1,18 +1,83 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Catalog SYSTEM "catalog.xsd">
 <Catalog>
     <Dams xmlns="http://www.somewhere.org/Dams" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.somewhere.org/Dams Dams.xsd">
         <Dam>
             <Name>Камчия</Name>
             <Year>1973</Year>
-            <Type>Rаменно насипна с вертикално глинено ядро</Type>
-            <Capacity>233550000 m3</Capacity>
+            <Type>Каменно насипна с вертикално глинено ядро</Type>
+            <Capacity>233550000</Capacity>
             <Tributaries>Луда Камчия, Котленска река, Глогова река</Tributaries>
             <RegionId>1</RegionId>
+        </Dam>
+        <Dam>
+            <Name>Ивайловград</Name>
+            <Year>1964</Year>
+            <Type>Каменно насипна с вертикално глинено ядро</Type>
+            <Capacity>188000000</Capacity>
+            <Tributaries>Арда</Tributaries>
+            <RegionId>2</RegionId>
+        </Dam>
+        <Dam>
+            <Name>Панчарево</Name>
+            <Year>1957</Year>
+            <Type>земно-насипна с глинен екран</Type>
+            <Capacity>6700000</Capacity>
+            <Tributaries>Искър</Tributaries>
+            <RegionId>3</RegionId>
+        </Dam>
+        <Dam>
+            <Name>Асеновец</Name>
+            <Year>1973</Year>
+            <Type>открит траншеен</Type>
+            <Capacity>28000000</Capacity>
+            <Tributaries>Асеновска река</Tributaries>
+            <RegionId>4</RegionId>
+        </Dam>
+        <Dam>
+            <Name>Карагьол</Name>
+            <Year>1952</Year>
+            <Type>бетонна-гравитачна</Type>
+            <Capacity>2000000</Capacity>
+            <Tributaries>язовир Калин</Tributaries>
+            <RegionId>5</RegionId>
+        </Dam>
+        <Dam>
+            <Name>Калин</Name>
+            <Year>1946</Year>
+            <Type>бетонна-гравитачна</Type>
+            <Capacity> 1000000</Capacity>
+            <Tributaries>Дебращица</Tributaries>
+            <RegionId>5</RegionId>
+        </Dam>
+        <Dam>
+            <Name>Тича</Name>
+            <Year>1973</Year>
+            <Type>земнонасипна стена</Type>
+            <Capacity>311000000</Capacity>
+            <Tributaries>Голяма Камчия, Елешница</Tributaries>
+            <RegionId>6</RegionId>
         </Dam>
     </Dams>
     <Regions>
         <Region id="1">
-            <RegionName>Регион Бургас</RegionName>
+            <RegionName>Бургас</RegionName>
+        </Region>
+        <Region id="2">
+            <RegionName>Хасково</RegionName>
+        </Region>
+        <Region id="3">
+            <RegionName>София</RegionName>
+        </Region>
+        <Region id="4">
+            <RegionName>Област Сливен</RegionName>
+        </Region>
+        <Region id="5">
+            <RegionName>Рила</RegionName>
+        </Region>
+        <Region id="6">
+            <RegionName>Шумен</RegionName>
         </Region>
     </Regions>
 </Catalog>
