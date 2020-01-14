@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Catalog>
+    <Dams xmlns="http://www.somewhere.org/Dams" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.somewhere.org/Dams Dams.xsd">
+        <Dam>
+            <Name>Камчия</Name>
+            <Year>1973</Year>
+            <Type>Rаменно насипна с вертикално глинено ядро</Type>
+            <Capacity>233550000 m3</Capacity>
+            <Tributaries>Луда Камчия, Котленска река, Глогова река</Tributaries>
+            <RegionId>1</RegionId>
+        </Dam>
+    </Dams>
+    <Regions>
+        <Region id="1">
+            <RegionName>Регион Бургас</RegionName>
+        </Region>
+    </Regions>
+</Catalog>
